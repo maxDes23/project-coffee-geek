@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/project-coffee-geek/static/css/main.46d31397.css",
+    "main.js": "/project-coffee-geek/static/js/main.eaf68906.js",
+    "index.html": "/project-coffee-geek/index.html",
+    "main.46d31397.css.map": "/project-coffee-geek/static/css/main.46d31397.css.map",
+    "main.eaf68906.js.map": "/project-coffee-geek/static/js/main.eaf68906.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.46d31397.css",
+    "static/js/main.eaf68906.js"
+  ]
+}
