@@ -1,0 +1,155 @@
+.header__container {
+    background: #4d6b4b;
+}
+
+.header__top {
+    padding: 7px 0;
+    min-height: 20px;
+    background: rgba(0,0,0,.3);
+    font-size: 12px;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.header__logo span {
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 1.5;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+}
+
+.header__wrapper {
+    max-width: 1440px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.header__layout {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__site-menu-wrapper.header__section, .header__site-menu-wrapper.header__column:not(.header__column--side) {
+    flex-basis: 100%;
+}
+
+.header__column:not(:last-child) {
+    padding-right: 12px;
+}
+.header__column {
+    display: flex;
+    justify-content: space-between;
+    flex: 1 1 auto;
+    max-width: 100%;
+}
+
+.header__section {
+    flex: 0 1 auto;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+    text-align: left;
+}
+
+.header__section:not(:last-child) {
+    margin-right: 12px;
+}
+
+.site-menu {
+    height: 18px;
+    overflow: hidden;
+    font-size: 0;
+    white-space: normal;
+}
+
+.site-menu__item {
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 12px
+}
+
+.site-menu__item:first-child {
+    margin-left: 0
+}
+
+.site-menu__link {
+    color: #fff;
+    border: 0
+}
+
+.site-menu__link:hover {
+    color: #fff
+}
+
+.social-icons {
+    line-height: 1;
+    white-space: nowrap
+}
+
+.social-icons__item {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 9px;
+    border: 0;
+    transition: opacity .15s
+}
+
+.social-icons__item:last-child {
+    margin-right: 0
+}
+
+.social-icons__item:hover {
+    opacity: .8
+}
+
+.social-icons__img {
+    width: 18px;
+    height: 18px;
+    fill: #fff;
+    pointer-events: none
+}
+
+.userbar {
+    position: relative
+}
+
+.userbar__button {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-left: 22px;
+    border: 0;
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+    transition: background .15s
+}
+
+.userbar__button .icon--user {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    font-size: 14px;
+    fill: currentColor
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

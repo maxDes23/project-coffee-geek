@@ -1,0 +1,25 @@
+:root {
+    --textColor: #000;
+    --yellow: #EBD96B;
+    --gray: #7f7f7f;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: var(--textColor);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    min-width: 1000px
+}
+
+@media screen and (max-width: 1220px) {
+  .container {
+    padding: 0 20px;
+   
+  }
+}
+
